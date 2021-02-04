@@ -1,7 +1,7 @@
 class Bird extends BaseClass {
   constructor(x,y){
     super(x,y,50,50);
-    this.image = loadImage("sprites/Angrybirdsyellowbird.jpg");
+    this.image = loadImage("sprites/angrybirdsyellowbird.jpg");
     this.smokeImage = loadImage("sprites/smoke.png");
     this.trajectory =[];
   }
